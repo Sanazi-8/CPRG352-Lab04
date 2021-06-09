@@ -9,9 +9,26 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title> </title>
+        <title> View Note </title>
     </head>
     <body>
-        <h1></h1>
+        <h1>Simple Note Keeper</h1>
+        <h2> View Note </h2>
+        
+        <form method="GET" >
+            
+        <label>Title: </label>
+        <p name="user_title" value="${Note.userTitle}"></p>
+        
+        <label>Content:</label>
+        <br>
+        
+        <p name="user_content" value="${Note.userContent}"></p>
+        <br>
+        
+        <a href="note?edit"> Edit </a>
+        
+        </form>
+        
     </body>
 </html>
