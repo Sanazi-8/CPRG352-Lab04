@@ -23,7 +23,7 @@
         <label>Content:</label>
         <br>
         
-        <textarea name="user_content" value="${Note.userContent}"></textarea>
+        <textarea name="user_content">${Note.userContent}</textarea>
         <br>
         
         <input type="submit" value="Save">

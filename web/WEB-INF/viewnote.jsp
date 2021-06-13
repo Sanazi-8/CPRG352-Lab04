@@ -18,12 +18,12 @@
         <form method="GET" >
             
         <label>Title: </label>
-        <p name="user_title" value="${Note.userTitle}"></p>
+        <p name="user_title">${Note.userTitle}</p>
         
         <label>Content:</label>
         <br>
         
-        <p name="user_content" value="${Note.userContent}"></p>
+        <p name="user_content">${Note.userContent}</p>
         <br>
         
         <a href="note?edit"> Edit </a>
