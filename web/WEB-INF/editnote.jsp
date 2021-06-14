@@ -18,12 +18,13 @@
         <form method="POST" >
             
         <label>Title: </label>
-        <input type="text" name="user_title" value="${Note.userTitle}"></input>
+        <input type="text" name="user_title" value="${note.userTitle}"></input>
+        <br>
         
         <label>Content:</label>
         <br>
         
-        <textarea name="user_content">${Note.userContent}</textarea>
+        <textarea name="user_content">${note.userContent}</textarea>
         <br>
         
         <input type="submit" value="Save">
